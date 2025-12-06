@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "url.servico.url.consulta-rfb",
+    "type": "java.lang.String",
+    "description": "Endereços de serviços"
+  },
+  {
+    "name": "url.servico.consulta-rfb",
+    "type": "java.lang.String",
+    "description": "URL do serviço de consulta à Receita Federal do Brasil"
+  },
+  {
+    "name": "consulta-rfb.url",
+    "type": "java.lang.String",
+    "description": "URL do serviço de consulta à Receita Federal do Brasil"
+  }
+]}

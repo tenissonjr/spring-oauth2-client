@@ -1,0 +1,5 @@
+GET http://localhost:8080/cpf/82300300141
+
+###
+
+GET http://localhost:8080/cpf/00546883109

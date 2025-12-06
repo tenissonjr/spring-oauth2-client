@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-oauth2-client
+  security:
+    oauth2:
+      client:
+        registration:
+          client-service:
+            provider: keycloak
+            client-id: ${env:keycloak_client_id}
+            client-secret: ${env:keycloak_client_secret}
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            token-uri: ${env:keycloak_token_uri}
+consulta-rfb: 
+  url: ${env:consulta_rfb_url}
