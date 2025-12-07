@@ -16,7 +16,7 @@ import br.gel.casa.ditec.copad.springoauth2client.interfaces.IConsultaRfbClient;
 public class ConsultaRfbClientConfig {
 
     @Value("${consulta-rfb.url}")
-    private String urlServicoConsultaRfbApi;
+    private  String urlServicoConsultaRfbApi;
 
     @Bean
     public IConsultaRfbClient consultaRfbClient(OAuth2AuthorizedClientManager authorizedClientManager) {
