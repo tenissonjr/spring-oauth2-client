@@ -1,6 +1,8 @@
+### Consulta a CPF
+
 GET http://localhost:8080/cpf/82300300141
 
-###
 
-GET http://localhost:8080/cpf/00546883109
+### Consulta a CNPJ
+GET http://localhost:8080/cnpj/123456789
 
